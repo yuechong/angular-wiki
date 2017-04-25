@@ -2,4 +2,4 @@
 
 angular $controller
 demo in use ng-controller as vm
-angular.extend(vm,$controller('CommonController',{$scope:$scope}))
+angular.extend(vm,$controller('CommonController',{vm:vm}))
